@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 249, 252);
+}
+
+.nav-item  a:hover {
+    color: rgb(249, 251, 255);
+}
+
+.container-1 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #626265;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+   margin-top: 50px;
+}
