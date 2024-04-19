@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 249, 252);
+}
+
+.nav-item  a:hover {
+    color: rgb(249, 251, 255);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.boton button{
+    background-color: rgb(228, 238, 248);
+    color: rgb(10, 2, 21);
+    text-decoration: none; 
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px; 
+}
+
+.boton {
+    display: inline-block; /* Hace que los botones se muestren uno al lado del otro */
+    margin-right: 10px; 
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #626265;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
