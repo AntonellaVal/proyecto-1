@@ -47,3 +47,13 @@ footer {
 .nav-inicio:hover{
     color: rgb(249, 251, 255);
 }
+
+.carrito{
+    width: 25px;
+    padding-top: 12px;
+    margin-right: 19px;
+}
+
+.nav-carrito{
+    list-style: none;
+}
