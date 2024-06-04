@@ -38,3 +38,12 @@ footer {
 .row a img {
     width:26rem;
 }
+.nav-inicio{
+    list-style: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 17px;
+}
+.nav-inicio:hover{
+    color: rgb(249, 251, 255);
+}

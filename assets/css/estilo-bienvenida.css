@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+}
+.contenedor{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}

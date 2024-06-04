@@ -1,0 +1,57 @@
+*{
+    padding: 0 ,auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 243, 243);
+}
+
+.asb-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0,auto;
+}
+
+#registerForm{
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+h2{
+    font-size: 2rem !important;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-color:hover{
+    cursor:pointer;
+    transition: .3s ease-in;
+}
+
+@media(max-width: 361px){
+    .asb-center{
+        padding: 0,auto;
+    }
+    h2{
+        padding: 0,auto;
+    }
+    input #newUsername{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
